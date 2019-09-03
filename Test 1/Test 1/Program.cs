@@ -19,7 +19,7 @@ namespace Test_1
             int x = int.Parse(Console.ReadLine());
             //for loop
             double y = 1;
-            for (int count = 0; count <= x; count++)
+            for (int count = 0; count < x; count++)
             {
                 y = y * b;
             }
